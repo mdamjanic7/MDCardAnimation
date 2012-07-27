@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		456C72FE15C328E10061F06E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 456C72FD15C328E10061F06E /* UIKit.framework */; };
+		456C730015C328E10061F06E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 456C72FF15C328E10061F06E /* Foundation.framework */; };
+		456C730215C328E10061F06E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 456C730115C328E10061F06E /* CoreGraphics.framework */; };
+		456C730815C328E10061F06E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 456C730615C328E10061F06E /* InfoPlist.strings */; };
+		456C730A15C328E10061F06E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 456C730915C328E10061F06E /* main.m */; };
+		456C730E15C328E10061F06E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 456C730D15C328E10061F06E /* AppDelegate.m */; };
+		456C731115C328E10061F06E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 456C731015C328E10061F06E /* ViewController.m */; };
+		456C731415C328E10061F06E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 456C731215C328E10061F06E /* ViewController.xib */; };
+		456C731C15C32DAA0061F06E /* linen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 456C731B15C32DAA0061F06E /* linen.jpg */; };
+		456C731F15C332A70061F06E /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 456C731E15C332A70061F06E /* CardView.m */; };
+		456C732215C34E2A0061F06E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 456C732015C335130061F06E /* QuartzCore.framework */; };
+		456C732415C35FB10061F06E /* linen@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 456C732315C35FB10061F06E /* linen@2x.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		456C72F915C328E10061F06E /* CardAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		456C72FD15C328E10061F06E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		456C72FF15C328E10061F06E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		456C730115C328E10061F06E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		456C730515C328E10061F06E /* CardAnimation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CardAnimation-Info.plist"; sourceTree = "<group>"; };
+		456C730715C328E10061F06E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		456C730915C328E10061F06E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		456C730B15C328E10061F06E /* CardAnimation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CardAnimation-Prefix.pch"; sourceTree = "<group>"; };
+		456C730C15C328E10061F06E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		456C730D15C328E10061F06E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		456C730F15C328E10061F06E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		456C731015C328E10061F06E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		456C731315C328E10061F06E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		456C731B15C32DAA0061F06E /* linen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = linen.jpg; sourceTree = "<group>"; };
+		456C731D15C332A70061F06E /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
+		456C731E15C332A70061F06E /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
+		456C732015C335130061F06E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		456C732315C35FB10061F06E /* linen@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "linen@2x.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		456C72F615C328E10061F06E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				456C72FE15C328E10061F06E /* UIKit.framework in Frameworks */,
+				456C730015C328E10061F06E /* Foundation.framework in Frameworks */,
+				456C730215C328E10061F06E /* CoreGraphics.framework in Frameworks */,
+				456C732215C34E2A0061F06E /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		456C72EE15C328E00061F06E = {
+			isa = PBXGroup;
+			children = (
+				456C730315C328E10061F06E /* CardAnimation */,
+				456C72FC15C328E10061F06E /* Frameworks */,
+				456C72FA15C328E10061F06E /* Products */,
+				456C731A15C32DAA0061F06E /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		456C72FA15C328E10061F06E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				456C72F915C328E10061F06E /* CardAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		456C72FC15C328E10061F06E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				456C732015C335130061F06E /* QuartzCore.framework */,
+				456C72FD15C328E10061F06E /* UIKit.framework */,
+				456C72FF15C328E10061F06E /* Foundation.framework */,
+				456C730115C328E10061F06E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		456C730315C328E10061F06E /* CardAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				456C730C15C328E10061F06E /* AppDelegate.h */,
+				456C730D15C328E10061F06E /* AppDelegate.m */,
+				456C731D15C332A70061F06E /* CardView.h */,
+				456C731E15C332A70061F06E /* CardView.m */,
+				456C730F15C328E10061F06E /* ViewController.h */,
+				456C731015C328E10061F06E /* ViewController.m */,
+				456C731215C328E10061F06E /* ViewController.xib */,
+				456C730415C328E10061F06E /* Supporting Files */,
+			);
+			path = CardAnimation;
+			sourceTree = "<group>";
+		};
+		456C730415C328E10061F06E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				456C730515C328E10061F06E /* CardAnimation-Info.plist */,
+				456C730615C328E10061F06E /* InfoPlist.strings */,
+				456C730915C328E10061F06E /* main.m */,
+				456C730B15C328E10061F06E /* CardAnimation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		456C731A15C32DAA0061F06E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				456C731B15C32DAA0061F06E /* linen.jpg */,
+				456C732315C35FB10061F06E /* linen@2x.jpg */,
+			);
+			name = Resources;
+			path = CardAnimation/Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		456C72F815C328E10061F06E /* CardAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 456C731715C328E10061F06E /* Build configuration list for PBXNativeTarget "CardAnimation" */;
+			buildPhases = (
+				456C72F515C328E10061F06E /* Sources */,
+				456C72F615C328E10061F06E /* Frameworks */,
+				456C72F715C328E10061F06E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardAnimation;
+			productName = CardAnimation;
+			productReference = 456C72F915C328E10061F06E /* CardAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		456C72F015C328E00061F06E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Misa Damjanic";
+			};
+			buildConfigurationList = 456C72F315C328E00061F06E /* Build configuration list for PBXProject "CardAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 456C72EE15C328E00061F06E;
+			productRefGroup = 456C72FA15C328E10061F06E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				456C72F815C328E10061F06E /* CardAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		456C72F715C328E10061F06E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				456C730815C328E10061F06E /* InfoPlist.strings in Resources */,
+				456C731415C328E10061F06E /* ViewController.xib in Resources */,
+				456C731C15C32DAA0061F06E /* linen.jpg in Resources */,
+				456C732415C35FB10061F06E /* linen@2x.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		456C72F515C328E10061F06E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				456C730A15C328E10061F06E /* main.m in Sources */,
+				456C730E15C328E10061F06E /* AppDelegate.m in Sources */,
+				456C731115C328E10061F06E /* ViewController.m in Sources */,
+				456C731F15C332A70061F06E /* CardView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		456C730615C328E10061F06E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				456C730715C328E10061F06E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		456C731215C328E10061F06E /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				456C731315C328E10061F06E /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		456C731515C328E10061F06E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		456C731615C328E10061F06E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		456C731815C328E10061F06E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CardAnimation/CardAnimation-Prefix.pch";
+				INFOPLIST_FILE = "CardAnimation/CardAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		456C731915C328E10061F06E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CardAnimation/CardAnimation-Prefix.pch";
+				INFOPLIST_FILE = "CardAnimation/CardAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		456C72F315C328E00061F06E /* Build configuration list for PBXProject "CardAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				456C731515C328E10061F06E /* Debug */,
+				456C731615C328E10061F06E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		456C731715C328E10061F06E /* Build configuration list for PBXNativeTarget "CardAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				456C731815C328E10061F06E /* Debug */,
+				456C731915C328E10061F06E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 456C72F015C328E00061F06E /* Project object */;
+}
